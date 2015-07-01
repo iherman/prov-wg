@@ -7,8 +7,8 @@
 HOME=$(cd ${0%/*} && echo ${PWD})               # e.g. prov-wg/namespace/bin
 PROV_WG=$(cd $HOME && cd ../../ && echo ${PWD}) # e.g. prov-wg
 
-W3C_ERRATA_HOME='../../my-pretend-working-copy-of-w3c-cvs' # '../TODO/ivan-add-path-here'
-W3C_NS_HOME='../../my-pretend-working-copy-of-w3c-cvs'     # '../TODO/ivan-add-another-path-here'
+W3C_ERRATA_HOME='../../WWW' # '../TODO/ivan-add-path-here'
+W3C_NS_HOME='../../WWW'     # '../TODO/ivan-add-another-path-here'
 
 
 function cp_if_diff() {
