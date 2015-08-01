@@ -9,7 +9,7 @@
          a prov:Activity;
          prov:used <prov-dc-refinements.ttl>, 
                    [ a prov:Entity;
-                     prov:value "rapper -g -o rdfxml-abbrev prov-dc-refinements.ttl > prov-dc-refinements.owl";
+                     prov:value "rapper -q -i turtle -o rdfxml-abbrev prov-dc-refinements.ttl > prov-dc-refinements.owl";
                    ];
          prov:wasAssociatedWith [ a prov:Person ];
       ];    
